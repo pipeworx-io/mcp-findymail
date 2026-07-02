@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/findymail",
+  "title": "Findymail",
+  "description": "Findymail MCP — B2B email finder & reverse-email lookup (findymail.com)",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/findymail",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-findymail",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/findymail/mcp"
+    }
+  ]
+}
