@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-findymail",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Findymail MCP — B2B email finder & reverse-email lookup (findymail.com)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-326d727b3663cfb5fabf881bbb52225b4331ff6db2d143c03f971a61df9cd63f",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-309ab87cbdb573ee1f6d4fef463907655c3a4e125b13a3849aca3d2625c85e9a",
+    "sourceCommit": "91681e9a4a137fa0051d58e32f38c64b6334af5c"
   }
 }
