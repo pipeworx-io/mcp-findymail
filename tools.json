@@ -1,0 +1,49 @@
+[
+  {
+    "name": "findymail_find_email",
+    "description": "Find the work email for a person by name + company domain — give a person's full name and their company domain and get their verified business email (with job title and LinkedIn when available). B2B prospecting / outreach. Example: findymail_find_email({ name: \"Patrick Collison\", domain: \"stripe.com\", _apiKey: \"your-findymail-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the person, e.g. \"Patrick Collison\""
+        },
+        "domain": {
+          "type": "string",
+          "description": "Company domain (no protocol), e.g. \"stripe.com\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your Findymail API key (get one at findymail.com)"
+        }
+      },
+      "required": [
+        "name",
+        "domain",
+        "_apiKey"
+      ]
+    }
+  },
+  {
+    "name": "findymail_reverse_email",
+    "description": "Look up the person/LinkedIn profile behind an email address — give an email and get the person's name, company, job title, and LinkedIn URL when available. Reverse-email enrichment. Example: findymail_reverse_email({ email: \"patrick@stripe.com\", _apiKey: \"your-findymail-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "Email address to look up, e.g. \"patrick@stripe.com\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "Your Findymail API key (get one at findymail.com)"
+        }
+      },
+      "required": [
+        "email",
+        "_apiKey"
+      ]
+    }
+  }
+]
